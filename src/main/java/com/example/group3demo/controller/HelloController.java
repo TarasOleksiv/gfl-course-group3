@@ -21,7 +21,7 @@ public class HelloController {
     @GetMapping(value = "/hello", produces = "Application/json")
     public User index() {
 
-        return new User("John", LocalDateTime.now());
+        return new User("Smith", LocalDateTime.now());
     }
 
     //http://localhost:8080/api/test/id?userName=Smith
